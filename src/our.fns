@@ -1,0 +1,14 @@
+; our.s
+keyleft                          = $80BF
+Start                            = $8000
+sprite_movie                     = $803B
+pos_X                            = $0000
+loadNames                        = $8030
+pos_Y                            = $0001
+infin                            = $80D5
+keyup                            = $80A9
+waitblank                        = $803B
+tilepal                          = $80D8
+loadpal                          = $801B
+keyright                         = $80CA
+keydown                          = $80B4

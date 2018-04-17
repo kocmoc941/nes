@@ -1,0 +1,22 @@
+; test.s
+pal                              = $80F2
+posX                             = $0903
+keyA                             = $80A0
+vblank                           = $8049
+posY                             = $0900
+keyB                             = $80B7
+load_pal_next                    = $800C
+isADown                          = $0904
+numSpr                           = $0901
+draw                             = $8049
+keyUp                            = $80CE
+reset                            = $8000
+infinite                         = $809D
+keyLeft                          = $80E0
+map                              = $83F2
+chr                              = $0000
+isBDown                          = $0905
+attrSpr                          = $0902
+keyDown                          = $80D7
+keyRight                         = $80E9
+load_tile_next                   = $802F
