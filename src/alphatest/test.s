@@ -57,7 +57,7 @@
     load_tile_next:
     stx $2007
     inx
-    cpx #$A0
+    cpx #$90
     bne load_tile_next
     iny
     cpy #4
@@ -158,5 +158,5 @@
     jmp draw
 
 
-    pal: .incbin "test.pal"
+    pal: .incbin "our.pal"
     map: .incbin "our.map"
