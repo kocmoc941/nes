@@ -2,15 +2,15 @@
 
 SRCPATH=./src
 TOOLS=../../tools
-ROM=test.nes
-SRC=test.s
+ROM=alpha.nes
+SRC=alpha.s
 
 all: clean build
 
 build: $(ROM)
 
 $(ROM): $(SRC)
-	$(TOOLS)/nesasm3 $(SRC)
+	$(TOOLS)/nesasm3 $^
 
 clean:
 	rm -f $(ROM)
